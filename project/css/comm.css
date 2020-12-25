@@ -1,0 +1,16 @@
+body{background-color: #f5f5f5;}
+.font_sm{font-size: 0.8rem;}
+.iframe_header{width: 100%;border: 0;}
+@media  {
+	.iframe_header{height: 14rem;}
+}
+@media (min-width:992px) {
+	.iframe_header{height: 9rem;}
+}
+  .iframe_footer{width: 100%;border: 0;}
+	@media  {
+		.iframe_footer{height: 34rem;}
+	}
+	@media (min-width:992px) {
+		.iframe_footer{height: 17rem;}
+	}

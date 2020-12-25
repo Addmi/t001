@@ -1,0 +1,20 @@
+body{background-color: #f5f5f5;}
+.bg-gray{background:linear-gradient(to bottom, #f5f4f5 0%, #e6e6e5 100%);}
+.w-10{width: 10%;}
+.list_btn1{
+	width: 1.5rem;height: 1.5rem;
+	border: 0;outline: 0;
+	color: #fff;
+	font-weight: bolder;
+	line-height: 1;
+	padding-top:0;
+	padding-bottom: 0.25rem;
+}
+.d-flex .w-100{ transition: transform 1s;}
+.d-flex .w-100:hover{transform: scale(1.1);}
+.list_btn1:focus{outline: 0;border: 0;}
+
+.page-link{border-radius: 5px;}
+.page-link:hover{border-color: #0AAEED;}
+.page-link:focus{box-shadow: none;}
+.active .page-link{background-color: #0AAEED !important;}
